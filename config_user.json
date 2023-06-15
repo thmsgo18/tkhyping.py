@@ -1,0 +1,463 @@
+{
+    "file_type": "config_user",
+    "version": 2,
+    "aux_out_drywet": 0.1500,
+    "aux_in_drywet": 1,
+    "startup_bank": 0,
+    "startup_effects_onoff": 1,
+    "looper_solo_effect_bank": 0,
+    "looper_solo_effect_onoff": 1,
+    "user_banks": [
+        {
+            "name": "Reverb",
+            "gain": -5,
+            "fbk_onoff": true,
+            "effects": [
+                {
+                    "preset": "default",
+                    "type": "Reverb",
+                    "bypass": false,
+                    "params": [
+                        {
+                            "key": "Decay",
+                            "value": 0.6000,
+                            "control": {
+                                "source": "Slider",
+                                "min": 0.01000,
+                                "max": 0.6000
+                            }
+                        },
+                        {
+                            "key": "DryWet",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chorus",
+            "gain": 20,
+            "fbk_onoff": true,
+            "effects": [
+                {
+                    "preset": "default",
+                    "type": "Chorus",
+                    "bypass": false,
+                    "params": [
+                        {
+                            "key": "Frequency",
+                            "value": 0.6000,
+                            "control": {
+                                "source": "Slider",
+                                "min": 0.6000,
+                                "max": 1.500
+                            }
+                        },
+                        {
+                            "key": "DryWet",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Echo",
+            "gain": 28,
+            "fbk_onoff": false,
+            "effects": [
+                {
+                    "preset": "default",
+                    "type": "Delay",
+                    "bypass": false,
+                    "params": [
+                        {
+                            "key": "Sync",
+                            "value": 0
+                        },
+                        {
+                            "key": "DelayTime",
+                            "value": 250,
+                            "control": {
+                                "source": "Slider",
+                                "min": 80,
+                                "max": 500
+                            }
+                        },
+                        {
+                            "key": "DelaySync",
+                            "value": 250
+                        },
+                        {
+                            "key": "Lowpass",
+                            "value": 8000
+                        },
+                        {
+                            "key": "Highpass",
+                            "value": 52
+                        },
+                        {
+                            "key": "Feedback",
+                            "value": 0.3400
+                        },
+                        {
+                            "key": "DryWet",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Phaser",
+            "gain": 30,
+            "fbk_onoff": true,
+            "effects": [
+                {
+                    "preset": "None",
+                    "type": "Phaser",
+                    "bypass": false,
+                    "params": [
+                        {
+                            "key": "Frequency",
+                            "value": 0.4000,
+                            "control": {
+                                "source": "Slider",
+                                "min": 0.4000,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "key": "Feedback",
+                            "value": 0.6700
+                        },
+                        {
+                            "key": "DryWet",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "preset": "None",
+                    "type": "Equalizer",
+                    "bypass": false,
+                    "params": [
+                        {
+                            "key": "GainBand1",
+                            "value": 6
+                        },
+                        {
+                            "key": "GainBand2",
+                            "value": 1.900
+                        },
+                        {
+                            "key": "GainBand3",
+                            "value": 0
+                        },
+                        {
+                            "key": "GainBand4",
+                            "value": -3.400
+                        },
+                        {
+                            "key": "GainBand5",
+                            "value": -8.200
+                        },
+                        {
+                            "key": "GainBand6",
+                            "value": -8.400
+                        },
+                        {
+                            "key": "Gain",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tremolo",
+            "gain": 40,
+            "fbk_onoff": true,
+            "effects": [
+                {
+                    "preset": "default",
+                    "type": "Tremolo",
+                    "bypass": false,
+                    "params": [
+                        {
+                            "key": "LFO",
+                            "value": 8,
+                            "control": {
+                                "source": "Slider",
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "preset": "None",
+                    "type": "Equalizer",
+                    "bypass": false,
+                    "params": [
+                        {
+                            "key": "GainBand1",
+                            "value": 0
+                        },
+                        {
+                            "key": "GainBand2",
+                            "value": 0
+                        },
+                        {
+                            "key": "GainBand3",
+                            "value": 0
+                        },
+                        {
+                            "key": "GainBand4",
+                            "value": 0
+                        },
+                        {
+                            "key": "GainBand5",
+                            "value": 0
+                        },
+                        {
+                            "key": "GainBand6",
+                            "value": -5
+                        },
+                        {
+                            "key": "Gain",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Octaver",
+            "gain": 50,
+            "fbk_onoff": true,
+            "effects": [
+                {
+                    "preset": "None",
+                    "type": "Lowpass",
+                    "bypass": false,
+                    "params": [
+                        {
+                            "key": "Frequency",
+                            "value": 1400
+                        },
+                        {
+                            "key": "Q",
+                            "value": 0.7070
+                        }
+                    ]
+                },
+                {
+                    "preset": "default",
+                    "type": "Pitch",
+                    "bypass": false,
+                    "params": [
+                        {
+                            "key": "Shift",
+                            "value": -12,
+                            "control": {
+                                "source": "Slider",
+                                "min": -12,
+                                "max": 12
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Disto",
+            "gain": 15,
+            "fbk_onoff": true,
+            "effects": [
+                {
+                    "preset": "Default",
+                    "type": "Gate",
+                    "bypass": false,
+                    "params": [
+                        {
+                            "key": "Threshold",
+                            "value": -42
+                        },
+                        {
+                            "key": "Hysteresis",
+                            "value": 18
+                        },
+                        {
+                            "key": "Range",
+                            "value": -100
+                        },
+                        {
+                            "key": "Hold",
+                            "value": 0
+                        },
+                        {
+                            "key": "Release",
+                            "value": 50
+                        },
+                        {
+                            "key": "Attack",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "preset": "None",
+                    "type": "Distortion",
+                    "bypass": false,
+                    "params": [
+                        {
+                            "key": "Lowpass",
+                            "value": 1500
+                        },
+                        {
+                            "key": "Volume",
+                            "value": -25
+                        },
+                        {
+                            "key": "Highpass",
+                            "value": 230
+                        },
+                        {
+                            "key": "Gain",
+                            "value": 50,
+                            "control": {
+                                "source": "Slider",
+                                "min": 0,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "preset": "None",
+                    "type": "Notch",
+                    "bypass": false,
+                    "params": [
+                        {
+                            "key": "Frequency",
+                            "value": 110
+                        },
+                        {
+                            "key": "Q",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "preset": "None",
+                    "type": "Notch",
+                    "bypass": false,
+                    "params": [
+                        {
+                            "key": "Frequency",
+                            "value": 220
+                        },
+                        {
+                            "key": "Q",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Boost",
+            "gain": 23,
+            "fbk_onoff": true,
+            "effects": [
+                {
+                    "preset": "None",
+                    "type": "Equalizer",
+                    "bypass": false,
+                    "params": [
+                        {
+                            "key": "GainBand1",
+                            "value": 5.300
+                        },
+                        {
+                            "key": "GainBand2",
+                            "value": 4.600
+                        },
+                        {
+                            "key": "GainBand3",
+                            "value": 3.400
+                        },
+                        {
+                            "key": "GainBand4",
+                            "value": 0
+                        },
+                        {
+                            "key": "GainBand5",
+                            "value": 0
+                        },
+                        {
+                            "key": "GainBand6",
+                            "value": -8
+                        },
+                        {
+                            "key": "Gain",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "input_bank": {
+        "name": "input_bank",
+        "effects": []
+    },
+    "output_bank": {
+        "name": "output_bank",
+        "effects": [
+            {
+                "preset": "Default",
+                "type": "Equalizer",
+                "bypass": false,
+                "params": [
+                    {
+                        "key": "GainBand1",
+                        "value": 0
+                    },
+                    {
+                        "key": "GainBand2",
+                        "value": 0
+                    },
+                    {
+                        "key": "GainBand3",
+                        "value": 0
+                    },
+                    {
+                        "key": "GainBand4",
+                        "value": 0
+                    },
+                    {
+                        "key": "GainBand5",
+                        "value": 0
+                    },
+                    {
+                        "key": "GainBand6",
+                        "value": 0
+                    },
+                    {
+                        "key": "Gain",
+                        "value": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "metronome": {
+        "bpm": 120,
+        "num": 4,
+        "den": 4,
+        "nbbars": 4
+    }
+}
